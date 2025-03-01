@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.outer{
+  width: 447px;
+  height: 447px;
+  //background: gold;
+  margin: 0px auto;
+}
+.box_row{
+  height: 0px;
+  width: 445px;
+  \\background: gold;
+}
+.box{
+  height: 178.6px;
+  width: 178.6px;
+  //background: gold;
+  box-sizing: border-box;
+  float: left;
+}
+.border_red{
+  border: 30px solid red;
+}
+.border_green{
+  border: 30px solid green;
+}
+.border_blue{
+  border: 30px solid blue;
+}
+.border_yellow{
+  border: 30px solid yellow;
+}
+.circle{
+  height: 29px;
+  width: 29px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 12px;
+  float: left;
+}
+.cell{
+  height: 29.8px;
+  width: 29.8px;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black;
+  text-align: center;
+}
+.red{
+  background: red;
+}
+.green{
+  background: green;
+}
+.blue{
+  background: blue;
+}
+.yellow{
+  background: yellow;
+}
+.v_lad{
+  height: 178.8px;
+  width: 87.8px;
+  float: left;
+  //background: gold;
+}
+.v_lad_row{
+  height: 29.8px;
+  width: 89.4px;
+  //background: gold;
+}
+.middle_row{
+  height: 87.8px;
+  width: 447px;
+  //background: gold;
+  float: left;
+}
+.h_lad{
+  width: 178.8px;
+  height: 87.8px;
+  //background: pink;
+  float: left;
+}
+.h_lad_row{
+  width: 178.8px;
+  height: 29.6px;
+  //background: blueviolet;
+}
+.ludo_home{
+  height: 0;
+  width: 0;
+  border-left: 44.88px solid red;
+  border-top: 44.88px solid green;
+  border-bottom: 44.88px solid blue;
+  border-right: 44.88px solid yellow;
+  float: left;
+}
+.star{
+  font-size: 25px;
+}
